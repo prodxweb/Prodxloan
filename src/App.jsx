@@ -399,7 +399,7 @@ function ApplyModal({ onClose }) {
             Your secure verification details have been submitted. Based on your initial information, you <strong style={{color:COLORS.gray700}}>may be eligible for up to $3,000</strong>. Review your final offer details and watch for next steps from Prodx.
           </p>
           <p style={{fontSize:14,color:COLORS.gray500,marginBottom:28}}>
-            Your preliminary offer is subject to final eligibility checks. For support, email <a href="mailto:helloprodx@gmail.com" style={{color:COLORS.orange,fontWeight:600}}>helloprodx@gmail.com</a>
+            Your preliminary offer is subject to final eligibility checks. For support, email <a href="mailto:helloprodx@gmail.com" style={{color:COLORS.orange,fontWeight:600}}>helloprodx@gmail.com</a> Phone <a href="tel:+12019726866" style={{color:COLORS.orange,fontWeight:600}}>+1 (201) 972-6866</a>
           </p>
           <div className="disclaimer-box" style={{marginBottom:24}}>
             <strong>Note:</strong> This is not a final approval. Availability depends on verification and state regulations. Prodx does not guarantee approval.
@@ -821,6 +821,7 @@ export default function ProdxLanding() {
               <div>
                 <p className="sora" style={{fontWeight:700,color:"white",fontSize:14,marginBottom:14}}>Contact</p>
                 <a href="mailto:helloprodx@gmail.com" style={{color:COLORS.orangeLight,fontSize:14,textDecoration:"none"}}>helloprodx@gmail.com</a>
+                <a href="tel:+12019726866" style={{color:COLORS.orangeLight,fontSize:14,textDecoration:"none"}}>+1 (201) 972-6866</a>
               </div>
             </div>
           </div>
